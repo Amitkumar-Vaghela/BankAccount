@@ -14,7 +14,7 @@ Werkzeug
 
 ##Installation
 1.Clone the repository:
-git clone https://github.com/your_username/flask-user-authentication.git
+https://github.com/Amitkumar-Vaghela
 
 2.Navigate into the project directory:
 cd flask-user-authentication
