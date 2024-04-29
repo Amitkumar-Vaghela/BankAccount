@@ -47,13 +47,13 @@ class Bank:
             print("Account not found.")
             return None
 
-# Function to get user input for creating a client
+
 def get_client_info():
     name = input("Enter client's name: ")
     address = input("Enter client's address: ")
     return Client(name, address)
 
-# Function to get user input for account operations
+
 def perform_account_operations(account):
     while True:
         print("\n1. Deposit")
@@ -72,7 +72,7 @@ def perform_account_operations(account):
         else:
             print("Invalid choice. Please enter a valid option.")
 
-# Example usage:
+
 bank_name = input("Enter bank name: ")
 bank = Bank(bank_name)
 client_info = get_client_info()
